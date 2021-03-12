@@ -28,7 +28,7 @@ This repository employs the following Python libraries:
 
 ### Compiling, Training, and Evaluating the Model
 
-(INSERT MODEL SUMMARY HERE)
+![model summary](https://github.com/juberr/Neural_Network_Charity_Analysis/blob/main/pics/model_summ.png?raw=true)
 
 * The model designed here consists of four layers:
 
@@ -51,7 +51,7 @@ This repository employs the following Python libraries:
 
         * "USE_CASE" - This variable did not give the neural network much information because there was a lack of variation in the data set. A vast majority of the responses for this variable were for "preservation".
 
-    (INSERT DENSITY OF AFFILIATION HERE)
+    ![affil density](https://github.com/juberr/Neural_Network_Charity_Analysis/blob/main/pics/density.png?raw=true)
 
     * Much like "CLASSIFICATION" and "APPLICATION_TYPE" binning was performed on the "AFFILIATION" column, since the vast majority of responses in that column were either "Independent" or "CompanySponsored".
 
@@ -63,16 +63,14 @@ This repository employs the following Python libraries:
 
     # Summary
 
-    (INSERT ACCURACY REPORT HERE)
+    ![model accuracy](https://github.com/juberr/Neural_Network_Charity_Analysis/blob/main/pics/model_acc.png?raw=true)
 
     The deep learning model achieved an accuracy of 73% on the test set of data. Should Alphabet Soup want to continue with a neural network to predict the success of potential investments, it is recommended that more data be collected. The dataset used here did not provide any particularly high correlations to the target variable.
-
-    (INSERT correlation report here)
 
     More features should be collected such as how long the organization has been in operation for, and how many previous donations they've received in the past (from Alphabet Soup or otherwise).
 
     # Recommendation
 
-    (INSERT PICTURE HERE)
+    ![rfc accuracy](https://github.com/juberr/Neural_Network_Charity_Analysis/blob/main/pics/rfc.png?raw=true)
 
     Alternatively, Alphabet Soup could employ the use of other machine learning models. For example, the Random Forest Classifier (RFC) from sklearn can achieve a similar accuracy without being as computationally expensive. The RFC model displayed here only uses 128 estimators with a max depth of 9. This is much smaller than the total 8,961 parameters performing calculations in the neural network!
